@@ -10,7 +10,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 520px;
+  width: 700px;
   min-height: 600px;
   background-color: rgba(114, 89, 48, 0.329);
   text-align: center;
@@ -22,6 +22,7 @@
 .todo-list {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   width: 400px;
   min-height: 450px;
   text-align: center;
@@ -63,7 +64,7 @@ h1 {
   border: 2px solid #5d0cff;
   outline: none;
   width: 320px;
-  background: transparent;
+  background: none;
   color: rgba(17, 16, 16, 0.945);
 }
 
@@ -87,7 +88,7 @@ h1 {
 }
 
 .todo-input.edit {
-  border: 2px solid #149fff;
+  border: 2px solid #6989a085;
 }
 
 #to-do-form button{

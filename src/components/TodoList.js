@@ -41,7 +41,7 @@ function TodoList() {
    }
 
   return (
-    
+    <>
     <div className='todo-app'>
        <Dashboard onSubmit={addTodo} />
         <div className='todo-list'>    
@@ -50,7 +50,7 @@ function TodoList() {
         />
         </div>
       </div>
-      
+      </>
   );
 }
 
