@@ -43,12 +43,14 @@ function TodoList() {
   return (
     <>
     <div className='todo-app'>
+    <div className='todo-form1'>
        <Dashboard onSubmit={addTodo} />
         <div className='todo-list'>    
         <Todo todos={todos} completeTodo={completeTodo} removeTodo={removeTodo}
         updatedTodo={updatedTodo}
         />
         </div>
+      </div>
       </div>
       </>
   );
